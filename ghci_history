@@ -1,0 +1,101 @@
+flip 1 2
+flip a b
+Floating 2
+Floating  2
+Float 2
+(2 :: Integer) :: Float
+:k Floating 
+:k Float
+(2 :: Integer) :: Floating 
+2 :: Integer :: Floating 
+fromJust $ Just 1
+fromJust Just 1
+fromJust Nothing
+:t logBase 
+logBase 2 $ toRational x
+logBase 2 x
+let x = 1 :: Integer
+binaryPowersOf5 
+let binaryPowersOf5 = map toBinary powersOf5
+let powersOf5 = map (\x-> 5^x) [22,21..0]
+powersOf5 = map (\x-> 5^x) [22,21..0]
+let powersOf5 :: [Integer]
+powersOf5 :: [Integer]
+:t fromInteger 2
+:k fromInteger 2
+fromInteger 2
+Num 2
+toBinary (-1)
+toBinary -1
+filter (\x-> fst x) $ map (\x -> match x [1,0,1,0,1,1,1,1]) $ map toBinary $ map (\x-> 5^x) [22,21..0]
+filter (\x-> fst x) $ map (\x -> match x [1,0,1,0,1,1,1,1]) $ map toBinary $ map (\x-> 5^x) [2,9..0]
+5^22 > 2000000000000000
+5^21 > 2000000000000000
+5^22 > 2000000000000000
+5^25 > 2000000000000000
+5^30 > 2000000000000000
+5^40 > 2000000000000000
+5^50 > 2000000000000000
+5^20 > 2000000000000000
+5^20 > toBinary 2000000000000000
+length $ toBinary 2000000000000000
+length $ toBinary 1000000000000000
+length $ toBinary 1000190000112500
+length $ toBinary 900190000112500
+length $ toBinary 9000190000112500
+length $ toBinary 90000190000112500
+length $ toBinary 900000190000112500
+length $ toBinary 190000112500
+length $ toBinary 90000112500
+length $ toBinary 112500
+length $ toBinary 12500
+length $ toBinary 2500
+filter (\x-> fst x) $ map (\x -> match x [1,0,1,0,1,1,1,1]) $ map toBinary $ map (\x-> 5^x) [10,9..0]
+filter (\x-> fst x) $ map (\x -> match x [1,0,1,0,1,1,1,1]) $ map toBinary $ map (\x-> 5^x) [10,9..1]
+map (\x -> match x [1,0,1,0,1,1,1,1]) $ map toBinary $ map (\x-> 5^x) [10,9..1]
+map (\x -> match x [1,0,1,0,1,1,1,1]) $ map toBinary $ map (\x-> 5^x) [10..1]
+map (\x -> match x [1,0,1,0,1,1,1,1]) $ map toBinary $ map (\x-> 5^x) [1..10]
+map (\x -> match x [1,0,1,0,1,1,1,1]) $ [toBinary 1, toBinary 5, toBinary 25, toBinary 625]
+map (\x -> match x [1,0,1,0,1,1,1,1]) $ [toBinary 1, toBinary 5, toBinary 25]
+map (\x -> match x [1,0,1,0,1,1,1,1]) $ [toBinary 1, toBinary 5, toBinary 5^2]
+map (\x -> match x [1,0,1,0,1,1,1,1]) $ [toBinary 1, toBinary 5]
+match [1,2,1] [1,0,1,0,1,1,1,1]
+match [1,0,1] [1,0,1,0,1,1,1,1]
+:l C.hs 
+:k Maybe 
+:k Maybe None
+:k Maybe Int
+:k Maybe []
+None
+Just []
+:k Maybe 
+:t Maybe 
+import Data.Maybe
+:t Maybe 
+match [1,0,1] [1,0,1,0,1,1,1,1]
+match [1,0,1] [1,0,1,0]
+:l C.hs 
+toBinary  0
+:t toBinary'
+:t toBinary
+toBinary  0
+:l C.hs 
+toBinary  0
+:l C.hs 
+toBinary  0
+toBinary  1
+toBinary  6
+toBinary  8
+toBinary  7
+:l C.hs 
+toBinary  7
+toBinary  8
+:l C.hs 
+toBinary  8
+toBinary  7
+:l C.hs 
+toBinary  7
+toBinary  16
+toBinary  8
+:l C.hs 
+
